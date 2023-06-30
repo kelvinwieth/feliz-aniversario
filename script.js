@@ -21,3 +21,7 @@ if (name && name !== "null") {
 } else {
   birthdayMessage.textContent = "Feliz Aniversário!";
 }
+
+window.onload = function () {
+  document.getElementById("audio").play();
+};
